@@ -1,4 +1,4 @@
-# **Daniel's Website Style Guide**
+# **Fire and Ice Website Style Guide**
 
 This my personal basic design system for websites. This training project, prepared by [Codecademy](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path) has been an invaluable exercise in enhancing my knowledge of CSS colors, typography, the box model, display and positioning.
 

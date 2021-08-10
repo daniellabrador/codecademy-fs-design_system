@@ -1,0 +1,279 @@
+/* Universal */
+@font-face {
+    font-family: "Staatliches";
+    src: url('fonts/Staatliches-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('fonts/Inter-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('fonts/Inter-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Inconsolata";
+    src: url('fonts/Inconsolata-Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+h1 {
+    font-family: Staatliches, Arial, Helvetica, sans-serif;
+    font-size: 110px;
+}
+
+h2 {
+    font-family: Staatliches, Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+h3 {
+    font-family: Staatliches, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+p, li {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+/* Header */
+
+header {
+    background-color: #FFFAFF;
+    box-shadow: 0 0 20px #30303662;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+.logo-container img {
+    height:30px;
+    margin: 10px 0 10px 15px;
+    position:absolute
+}
+
+header + div {
+    height: 50px;
+}
+
+nav li {
+    float: right;
+}
+
+nav a {
+    color: #303036;
+    font-size: 16px;
+    padding: 14px 17px;
+    position: relative;
+    top: 17px;
+}
+
+nav a:hover {
+    color: #f7870d;
+    background-color:#f8f8f8;
+}
+
+
+
+
+/* Main Header */
+
+.jumbotron {
+    display: flex;
+    height: 500px;
+    background-image: linear-gradient(to bottom, rgba(255, 193, 21, 0.705), rgba(87, 80, 150, 0.73)), url('img/wall.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron div {
+    margin: auto;
+}
+
+.jumbotron h1 {
+    font-size: 110px;
+    color: white;
+}
+
+/* Main Sections */
+
+.style-guide article {
+    padding: 3% 3%;
+    overflow: auto;
+}
+
+article > h2 {
+    margin-left: 2.5%;
+}
+
+article div {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+
+/* Main Section: Color */
+
+.color {
+    width: 22%;
+    float: left;
+    height: 180px;
+    margin: 1.5%;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(87, 80, 150, 0.24);
+}
+
+.magnolia {
+    background-color: #FFFAFF;
+}
+
+.cyan-process {
+    background-color: #30BCED;
+    color: white;
+}
+
+.tangerine {
+    background-color: #F7870D;
+    color: white;
+}
+
+.orange-soda {
+    background-color: #FC5130;
+    color: white;
+}
+
+.black-coral {
+    background-color: #5E6472;
+    color: white;
+}
+
+.jet {
+    background-color: #303036;
+    color: white;
+}
+
+.rich-black {
+    background-color: #050401;
+    color: white;
+}
+
+
+/* Main Section: Fonts */
+#fonts {
+    background-color:#050401;
+    color: white;
+}
+
+.font {
+    width: 30%;
+    float: left;
+    height: 15em;
+    margin: 1.5%;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(87, 80, 150, 0.24);
+    background-color: #303036;
+    color: white;
+}
+
+.font p {
+    margin: 7px 0;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+.font h3 {
+    font-family: inherit;
+    text-decoration: underline;
+}
+
+.bold-text {
+    font-weight:bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.staatliches {
+    font-family: Staatliches, Arial, Helvetica, sans-serif;
+}
+
+.inconsolata {
+    font-family: Inconsolata, Arial, Helvetica, sans-serif;
+}
+
+.inter {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+
+/* Main Section: Text Styles */
+.text-style {
+    width: 97%;
+    margin: 1.5%;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(87, 80, 150, 0.24);
+}
+
+.h1-box {
+    background-color: #30BCED;
+    color: white;
+}
+
+.h2-box {
+    background-color: #F7870D;
+    color: white;
+}
+
+.para-box {
+    background-color: #FC5130;
+    color: white;
+}
+
+.para-box p, .h2-box h2 {
+    margin: 10px 0;
+}
+
+
+/* Footer */
+
+footer {
+    height: 112px;
+    background-color:#050401;
+    display: flex;
+}
+
+footer p {
+     margin: auto;
+     color: white;
+     text-align: center;
+     line-height: 1.5em;
+}
+
+footer a {
+    color: white;
+}

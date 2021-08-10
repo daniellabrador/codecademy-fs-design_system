@@ -1,4 +1,4 @@
-# **Daniel's Website Design System**
+# **Daniel's Website Style Guide**
 
 This my personal basic design system for websites. This training project, prepared by [Codecademy](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path) has been an invaluable exercise in enhancing my knowledge of CSS colors, typography, the box model, display and positioning.
 
@@ -24,7 +24,7 @@ To complete this project, you should have completed the Codecademy lessons cover
 
 ## Setup
 
-To check the output of the design framework, check the [css file](styles.css) or view the sample html file through launching the [live site](#).
+To check the output of the design system, check the [css file](styles.css) or view the sample html file through launching the [live site](https://daniellabrador.github.io/codecademy-design-system/).
 
 ## Sources
 

@@ -24,7 +24,7 @@ To complete this project, you should have completed the Codecademy lessons cover
 
 ## Setup
 
-To check the output of the design system, check the [css file](styles.css) or view the sample html file through launching the [live site](https://daniellabrador.github.io/codecademy-design-system/).
+To check the output of the design system, check the [css file](styles.css) or view the sample html file through launching the [live site](https://daniellabrador.github.io/codecademy-fs-design_system/).
 
 ## Sources
 
